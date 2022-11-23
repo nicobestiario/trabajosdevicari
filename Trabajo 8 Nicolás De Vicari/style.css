@@ -1,0 +1,25 @@
+.display-3{
+    background-color: aqua;
+    margin: 0% auto;
+    align-content: center;
+    border-style: groove;
+}
+
+.sanma{
+    max-width: 100%;
+    height: auto;
+}
+
+.breadcrumb{
+    padding-left: 50px;
+}
+
+.mb-3{
+    padding: 50px;
+    margin: 0% auto;
+}
+
+.col{
+padding: 50px;
+margin: 0% auto;;
+}

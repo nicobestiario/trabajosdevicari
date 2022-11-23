@@ -1,0 +1,42 @@
+* {
+    background-color: #a9f4db; 
+    margin: auto; 
+}
+
+* {
+    text-align: center;
+}
+
+body {
+  font-size: 15px;;
+}
+
+
+#enviar {
+   background-color: green  ;
+}
+
+.caja {
+    background-color: white;
+}
+
+main {
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.05cm;  
+}
+
+
+.box {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border: 10px inset;
+    box-sizing:border-box
+}
+
+sub {
+
+    background-color: white;
+}
+

@@ -1,0 +1,74 @@
+.elemento1 {
+
+    width: 650px;
+    height: 100px;
+    background-color: rgb(111, 184, 111);
+    border: 2px dotted;
+    position: relative;
+    z-index: 5;
+        
+}
+
+
+.elemento2 {
+
+    width: 650px;
+    height: 100px;
+    background-color: rgb(111, 184, 111);
+    border: 2px dotted;
+    position: relative;
+    top: 240px;
+    z-index: 2;   
+    
+}
+
+.elemento3 {
+
+    width: 400px;
+    height: 400px;
+    background-color: rgb(213, 117, 117);
+    border: 2px dotted;
+    position: absolute;
+    left: 300px;
+   
+    z-index: 4;
+   
+}
+
+.elemento4 {
+    
+    width: 300px;
+    height: 100px;
+    background-color: rgb(229, 242, 113);
+    border: 2px dotted;
+    position: relative;
+    z-index: 6;
+    margin: auto;
+   
+}
+
+.elemento5 {
+
+    width: 300px;
+    height: 100px;
+    background-color: rgb(229, 242, 113);
+    border: 2px dotted;
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    top: 160px;
+} 
+
+
+.elemento6 {
+    
+    width: 150px;
+    height: 300px;
+    background-color: rgb(113, 151, 248);
+    border: 2px dotted;
+    position: absolute;
+    z-index: 3;
+    bottom: 50px;
+    left: 180px;
+   
+}

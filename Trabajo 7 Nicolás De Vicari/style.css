@@ -1,0 +1,20 @@
+.container{
+background-color: gray;
+position: relative;
+top: 25px;
+margin: auto;
+}
+
+h2{
+    text-align: center;
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}

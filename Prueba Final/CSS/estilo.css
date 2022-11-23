@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+   scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0px;
+}
+
+header{
+    height: 100vh;
+background-image: linear-gradient(to top, rgba(255, 241, 235, 0.5) 0%, rgba(172, 225, 249, 0.5) 100%), url(../Imágenes/imgppal.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+}
+
+.head{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+background-color: white;
+width: 40px;
+height: 40px;
+cursor: pointer;
+border-radius: 10px;
+box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.navegacion{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30vw;
+    height: 100%;
+    background-image: linear-gradient(135deg, rgb(253, 252, 251) 0%, rgb(226, 209, 195) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: transform .3s ease-in-out;
+    transform: translate(110%);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.spread{
+   transform: translate(0);
+}
+
+.navegacion{
+    color: white;
+    text-decoration: none;
+}
+
+.titulo{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.copy{
+    font-weight: 300;
+    font-size: 25px;
+}
+
+/* Formación Académica*/
+
+.subtitulo{
+    text-align: center;
+    font-weight: 300;
+    color: rgb(161, 209, 224);
+    margin-bottom: 40px;
+    font-size: 40px;
+
+}
+
+.container-formacion{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: wrap; 
+}
+
+.container-formacion img{
+    width: 40%;
+}
+
+.formacionn{
+    width: 45%;
+}
+
+.academica{
+    margin-bottom: 20px;
+
+}
+
+.f-academica{
+    color: rgb(161, 209, 224);
+    margin-bottom: 7px;
+}
+
+.number{
+    display: inline-block ;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    width: 30px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 5px;
+}
+
+/*Experiencia laboral pongamos un 
+background al container-experiencia: #f2f2f2* - 33 minutos x las dudas/
+
+/*Información Adicional*/
+
+/*contacto?*/
+
+/*Footer*/
+
+.footer{
+    background: rgba(172, 225, 249, 0.5);
+    padding-bottom: 0.1px;
+
+}
+
+.container-contact-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contact{
+    width: 40%;
+    color: black;
+}
+
+.brand{
+font-weight: 500;
+font-size: 40px;
+}
+
+.brand+p{
+    font-weight: 500;
+}
+
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    color: black;
+
+}
+
+.social-media-icon:hover{
+    background-color: aqua;
+    color: aquamarine;
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+
+}
+
+.line{
+    width: 90%;
+    max-width: 60px;
+    margin: 0 auto;
+    background-color: black;
+    margin-bottom: 60px;
+}
+
