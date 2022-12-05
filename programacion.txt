@@ -1,0 +1,27 @@
+
+userr@user MINGW64 ~/Documents/CARPETA REV DIGITAL (main)
+$ git add .
+
+userr@user MINGW64 ~/Documents/CARPETA REV DIGITAL (main)
+$ git commit -m "tp 9 del curso de rev digital" 
+[main 04e3ad6] tp 9 del curso de rev digital
+ 2 files changed, 12 insertions(+)
+ create mode 100644 "Trabajo 9 Nicol\303\241s De Vicari/JS/funcion.js"
+ create mode 100644 "Trabajo 9 Nicol\303\241s De Vicari/t9.html"
+
+userr@user MINGW64 ~/Documents/CARPETA REV DIGITAL (main)
+$ git push 
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 583 bytes | 583.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/nicobestiario/trabajosdevicari.git
+   4a0e240..04e3ad6  main -> main
+
+userr@user MINGW64 ~/Documents/CARPETA REV DIGITAL (main)
+$
+ 
+**** para agregar las nuevas carpetas de las ejercitaciones futuras ****
