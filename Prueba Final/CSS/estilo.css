@@ -30,6 +30,7 @@ background-position: center;
 }
 
 .head{
+    text-align: center;
     padding: 0;
     height: 100%;
     display: flex;
@@ -135,21 +136,83 @@ box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
 /*Experiencia laboral pongamos un 
-background al container-experiencia: #f2f2f2* - 33 minutos x las dudas/
+background al container-experiencia: #f2f2f2* - 33 minutos x las dudas/*/
+
+.container-experiencia {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: wrap; 
+}
+
+.container-experiencia img{
+    width: 40%;
+}
+
+.experienciaa{
+    width: 45%;
+}
+
+.e-laboral{
+    color: rgb(161, 209, 224);
+    margin-bottom: 7px;
+}
 
 /*Información Adicional*/
 
+.container-informacion {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap; 
+ }
+ 
+ .container-informacion img{
+     width: 40%;
+ }
+ 
+ .informacionn{
+     width: 45%;
+ }
+ 
+ .i-adicional{
+     color: rgb(161, 209, 224);
+     margin-bottom: 7px;
+ }
+ 
+
 /*contacto?*/
+
+.container-de {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap; 
+ }
+ 
+ .container-de img{
+     width: 40%;
+ }
+ 
+ .dee{
+     width: 45%;
+ }
+ 
+ .d-contacto{
+     color: rgb(161, 209, 224);
+     margin-bottom: 7px;
+ }
+ 
 
 /*Footer*/
 
-.footer{
+footer{
     background: rgba(172, 225, 249, 0.5);
     padding-bottom: 0.1px;
 
 }
 
-.container-contact-footer{
+.contact-footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -168,7 +231,7 @@ font-weight: 500;
 font-size: 40px;
 }
 
-.brand+p{
+.brand + p{
     font-weight: 500;
 }
 
@@ -178,7 +241,7 @@ font-size: 40px;
     justify-content: flex-end;
 }
 
-.social-media-icon{
+.icon{
     display: inline-block;
     margin-left: 20px;
     width: 60px;
@@ -190,22 +253,95 @@ font-size: 40px;
 
 }
 
-.social-media-icon:hover{
-    background-color: aqua;
-    color: aquamarine;
+.icon:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(172, 225, 249, 0.5);
 }
 
-.social-media-icon i{
-    font-size: 30px;
+.social-media-icon + i{
+    font-size: 40px;
     line-height: 60px;
 
 }
 
 .line{
     width: 90%;
-    max-width: 60px;
+    max-width: 1200px;
     margin: 0 auto;
     background-color: black;
     margin-bottom: 60px;
 }
 
+@media screen and (max-width:800px){
+    .navegacion{
+        width: 50vw;
+    }
+    .titulo{
+        font-size: 40px;
+    }
+
+    .container-formacion img{
+       width: 80%;
+       margin-bottom: 40px;
+    }
+
+    .formacionn{
+       width: 80%;
+    }
+
+    .academica{
+      margin-bottom: 30px;  
+    }
+
+    .contact-footer{
+        justify-content: center;
+    }
+
+    .social-media{
+width: 80%;
+justify-content: space-evenly;
+    }
+
+    .social-media-icon{
+        margin-left: 0;
+    }
+
+    .social-media i{
+        margin-left: 0;
+    }
+
+    .contact{
+    text-align: center;
+    width: 80%;
+    margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-widht:500px){
+    
+    .navegacion{
+        width: 65vw;
+    }
+
+    .menu{
+        top: 20px;
+        right: 20px;
+    }
+
+    .titulo{
+        font-size: 30px;
+    }
+
+    .subtitulo{
+        font-size: 30px;
+    }
+
+    .social-media{
+width: 100%;
+    }
+
+
+    .contact{
+    width: 100%;
+}
+}

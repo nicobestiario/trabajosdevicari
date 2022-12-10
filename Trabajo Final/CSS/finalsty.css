@@ -60,16 +60,6 @@
     width: 100%;
 }
 
-#foot{
-    border-style:inset;
-    background-color: rgb(105, 6, 6);}
-
-#creado{
-    text-align: center;
-    text-decoration-color: aliceblue;
-    font-family: sans-serif;
-}
-
 .display-1{
     color: aliceblue;
     display: flex;
@@ -84,3 +74,16 @@ align-items: end;
     font-size: 1.2rem;
 
 }
+
+
+#foot{
+    border-style:inset;
+    padding-bottom: 0.1px;
+    background-color: rgb(105, 6, 6);}
+    
+
+#creado{
+    text-align: center;
+    text-decoration-color: aliceblue;
+    font-family: sans-serif;
+    }
