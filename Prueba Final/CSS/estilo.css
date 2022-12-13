@@ -72,6 +72,7 @@ box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
 .navegacion{
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
     color: white;
     text-decoration: none;
 }
@@ -213,25 +214,11 @@ background al container-experiencia: #f2f2f2* - 33 minutos x las dudas/*/
      margin-bottom: 7px;
  }
  
-/*Contacto*/
+ /*Contacto*/
 
-.mb-3{
-    display: flex;
-    align-content: center;
-    width: 45%;
-}
-
-.form-label{
-    display: flex;
-    align-content: center;
-    width: 45%;
-}
-
-.form-control {
-    display: flex;
-    align-content: center;
-    width: 45%;
-}
+ .container{
+     text-align: center;
+ }
 
 /*Footer*/
 
@@ -300,6 +287,7 @@ font-size: 40px;
     background-color: black;
     margin-bottom: 60px;
 }
+
 
 @media screen and (max-width:800px){
     .navegacion{
