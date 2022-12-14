@@ -1,5 +1,6 @@
 const hamburger = document.querySelector('.menu')
 const menu = document.querySelector('.navegacion')
+const redSocial = document.querySelector('.linkedin') || document.querySelector('.facebook') || document.querySelector('.instagram');
 
 console.log(menu)
 console.log(hamburger)
@@ -15,3 +16,10 @@ window.addEventListener('click', e=>{
     }
 })
 
+redSocial.addEventListener('click', e => {
+    var resultado = window.confirm('Estás saliendo del sitio');
+    if (resultado === true) {
+        window.alert('¡Hasta pronto!');
+    } 
+    
+});
